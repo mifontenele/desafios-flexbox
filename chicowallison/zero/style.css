@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 20px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.sub-container{
+    display: grid;
+    justify-content: center;
+}
+.sub-item{
+    width: 25px;
+    height: 25px;
+    border: 1px solid blue;
+}
