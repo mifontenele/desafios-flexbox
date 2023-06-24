@@ -32,5 +32,8 @@
 ## 7# - Layout
 ![image](https://github.com/DC-FS04-SUL/desafios-flexbox/assets/19413241/ea2a4665-5141-40bc-8c88-4dbb469cc5a3)
 
+## 8# - Layout
+![image](https://github.com/DC-FS04-SUL/desafios-flexbox/assets/19413241/e4117424-e841-4a0b-9fdc-5783363037a5)
+
 
 
