@@ -38,4 +38,6 @@
 ## 9# - Layout
 ![image](https://github.com/DC-FS04-SUL/desafios-flexbox/assets/19413241/97f5f61b-d9f6-488a-beb6-c0618972d8a6)
 
+## 10# - Layout
+![image](https://github.com/DC-FS04-SUL/desafios-flexbox/assets/19413241/e4370cf2-fb78-4c38-89fe-7c970a23dfe6)
 
