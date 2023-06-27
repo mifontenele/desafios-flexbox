@@ -23,7 +23,7 @@
     margin: 5px;
 }
 
-.article-content {
+.content {
     display: flex;
     justify-content: space-around;
     align-items: center;
