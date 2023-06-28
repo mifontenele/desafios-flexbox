@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.bloco1{
+
+    text-align: center;
+    background: red;
+    width: 610px;
+    height: 770px;
+    margin: 50px;
+    left: 10px;
+    position: relative;
+    top: -30px;
+
+}
+
+.bloco2{
+    text-align: center;
+    background: white;
+    width: 600px;
+    height: 40px;
+    margin: 5px;
+    left: auto;
+    position: relative;
+    top: 5px;
+
+}
+
+.bloco3{
+    text-align: center;
+    background: white;
+    width: 600px;
+    height: 200px;
+    margin: 5px;
+    left: auto;
+    position: relative;
+    top: 5px;
+   
+}
+.bloco4{
+    
+    background: white;
+    width: 600px;
+    height: 307px;
+    margin: 5px;
+    left: auto;
+    position: relative;
+    top: 10px;
+   
+  
+}
+
+.bloco5{
+  
+    background: red;
+    width: 185px;
+    height: 280px;
+    margin: 8px;
+    left: auto;
+    position: relative;
+    top: 5px;
+    float: left;
+}
+
+.bloco6{
+    
+    background: red;
+    width: 185px;
+    height: 280px;
+    margin: 8px;
+    left: auto;
+    position: relative;
+    top: 5px;
+    float: left;
+}
+
+.bloco7{
+    background: red;
+    width: 185px;
+    height: 280px;
+    margin: 5px;
+    left: auto;
+    position: relative;
+    top: 8px;
+    float: left;
+}
+
+.bloco8{
+    text-align: center;
+    background: white;
+    width: 600px;
+    height: 142px;
+    margin: 5px;
+    left: auto;
+    position: relative;
+    top: 15px;
+
+}
+
+.bloco9{
+    text-align: center;
+    background: white;
+    width: 600px;
+    height: 40px;
+    margin: 5px;
+    left: auto;
+    position: relative;
+    top: 15px;
+
+}
