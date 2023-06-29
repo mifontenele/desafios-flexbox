@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    padding: 15px;
+}
+
+.sub-container {
+    display: flex;
+    border: none;
+    width: 100%;
+    margin: 20px;
+}
+
+.main-content {
+    border: 3px solid red;
+    width: 70%;
+    height: 600px;
+    margin: 10px;
+}
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    border: none;
+
+}
+
+.logo {
+    border: 3px solid red;
+    height: 150px;
+    margin: 10px;
+}
+.menu-externo{
+    border: none;
+
+}
+.box {
+    border: 3px solid red;
+    height: 50px;
+    margin: 10px;
+
+}
+
+.baseboard {
+    border: 3px solid red;
+    width: 98%;
+    height: 80px;
+    margin: 10px;
+}
