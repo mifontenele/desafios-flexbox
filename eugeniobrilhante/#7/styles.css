@@ -19,67 +19,42 @@ body {
     background-color: var(--dark-secondary);
 }
 
-header {
-    background-color: var(--primary);
-    border-radius: 1em;
-    padding: 2em;
-}
-
-main {
-    background-color: var(--primary);
-    border-radius: 1em;
-    padding: 2em;
-    /* adicionando grid */
-    display: grid;
-    gap: 2em;
-}
-
-aside {
-    background-color: var(--secondary);
-    border-radius: 1em;
-    padding: 2em;
-    /* tamanho */
-    flex: 1;
-}
-
-article {
-    background-color: var(--secondary);
-    border-radius: 1em;
-    padding: 2em;
-    /* tamanho */
-    flex: 1;
-    /* adicionando grid */
-    display: grid;
-    gap: 2em;
-}
-
 article section {
     background-color: var(--third);
     border-radius: 1em;
     padding: 2em;
 }
 
-section {
-    background-color: var(--secondary);
-    border-radius: 1em;
-    padding: 2em;
-}
+/* styles to class */
 
-footer {
+.card-primary {
     background-color: var(--primary);
     border-radius: 1em;
     padding: 2em;
 }
 
-/* styles to class */
+.card-secondary {
+    background-color: var(--secondary);
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.gap-2em {
+    gap: 2em;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.display-grid {
+    display: grid;
+}
 
 .init {
-    display: grid;
     padding: 2em;
-    gap: 2em;
 }
 
 .main-body {
     display: flex;
-    gap: 2em;
 }
