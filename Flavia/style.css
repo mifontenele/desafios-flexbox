@@ -1,0 +1,85 @@
+  :root {
+    --primary: #5271fe;
+    --secondady: #7c93fb;
+    --third: #b7c4fe;
+
+    --dark-blue: #1c2656;
+    --dark: #000;
+    --dark-secondary: #333;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /*styles to tags */
+    body {
+        background-color: var(--dark-secondary);
+        }
+
+        header {
+        background-color: var(--primary);
+        border-radius: 1em ;
+        padding: 2em;
+        }
+
+        main 
+         {
+            background-color: var(--primary);
+            border-radius: 1em;
+            padding: 2em;
+            
+            /*tamanho*/
+            height: 50vh;
+            display: grid;
+            gap: 2em;
+        }
+
+        aside {
+            background-color: var(--secondady);
+            border-radius: 1em;
+            padding: 2em;
+             /*tamanho*/
+            flex: 1;
+        }
+
+        article {
+            background-color: var(--secondady);
+            border-radius: 1em;
+            padding: 2em;
+             /*tamanho*/
+            flex: 1;
+        }
+
+        section {
+            background-color: var(--secondady);
+            border-radius: 1em;
+            padding: 2em;
+             /*tamanho*/
+            flex: 1;
+        }
+
+        footer {
+            background-color: var(--primary);
+            border-radius: 1em;
+            padding: 2em;
+        }
+          
+      
+      
+        /*styles to class */
+      .init {
+        display: grid;
+        padding: 2em;
+        gap: 2em;
+
+      }
+      .main-body {
+        display: flex;
+        gap: 2em;
+
+      }
+
+
+
