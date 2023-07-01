@@ -1,0 +1,93 @@
+:root{
+    --primary: #5271fe;
+    --secundary: #7c93fb;
+    --third: #b7c4fe;
+
+    --dark-blue: #1c2656;
+    --dark: #000;
+    --dark-secundary: #333;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styles to tag's */
+body{
+    background-color: var(--dark-secundary);
+}
+
+
+header{
+   background-color: var(--primary);
+   border-radius: 1em;
+   padding: 2em;
+}
+
+main{
+    background-color: var(--primary);
+    border-radius: 1em;
+    padding: 2em;
+    /* Tamanho */
+    height: 50vh;
+    /* add grid */
+    display: grid;
+    gap: 2em;
+
+}
+
+aside{
+    background-color: var(--secundary);
+    border-radius: 1em;
+    padding: 2em;
+    /* tamanho */
+    flex: 1;
+}
+
+article{
+    background-color: var(--secundary);
+    border-radius: 1em;
+    padding: 2em;
+    /* tamanho */
+    flex: 1;
+    /* add grid */
+    display: grid;
+    gap: 2em;
+
+}
+
+section{
+    background-color: var(--secundary);
+    border-radius: 1em;
+    padding: 2em;
+    
+}
+
+article section{
+    background-color: var(--third);
+    border-radius: 1em;
+    padding: 2em;
+}
+
+footer{
+    background-color: var(--primary);
+    border-radius: 1em;
+    padding: 2em;
+}
+
+/* style to class */
+
+.init{
+    display: grid;
+    padding: 2em;
+    gap: 2em;
+
+}
+
+.main-body{
+    display: flex;
+    gap: 2em;
+}
