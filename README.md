@@ -1,3 +1,15 @@
+````
+:root {
+    --primary: #5271fe;
+    --secondary: #7c93fb;
+    --third: #b7c4fe;
+
+    --dark-blue: #1c2656;
+    --dark: #000;
+    --dark-secondary: #333
+}
+````
+
 # Desafios-flexbox
 
 ## Selecione um dos projetos e crie uma pasta com o seu nome, em seguida, comece a trabalhar nele.
@@ -20,14 +32,14 @@
 ## 3# - Layout 
 ![image](https://github.com/DC-FS04-SUL/desafios-flexbox/assets/19413241/d7d7dcae-2edc-4e0f-9d16-c4c2bf061f2a)
 
+## 4# - Layout
+![image](https://github.com/DC-FS04-SUL/desafios-flexbox/assets/19413241/d325d259-af05-4383-b431-1ccafd5d160b)
+
 ## 5# - Layout 
 ![image](https://github.com/DC-FS04-SUL/desafios-flexbox/assets/19413241/5dd31976-cccd-49ae-bd95-54c19fcbfc07)
 
 ## 6# - Layout
 ![image](https://github.com/DC-FS04-SUL/desafios-flexbox/assets/19413241/a064f009-402b-47cb-9a5c-5dfb464f372c)
-
-## 7# - Layout
-![image](https://github.com/DC-FS04-SUL/desafios-flexbox/assets/19413241/d325d259-af05-4383-b431-1ccafd5d160b)
 
 ## 7# - Layout
 ![image](https://github.com/DC-FS04-SUL/desafios-flexbox/assets/19413241/ea2a4665-5141-40bc-8c88-4dbb469cc5a3)
