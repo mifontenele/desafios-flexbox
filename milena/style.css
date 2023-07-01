@@ -55,13 +55,13 @@ article section{
     border-radius: 1em;
     padding: 2em;
 }
-
+/* 9 */
 section{
     background-color: var(--third);
     border-radius: 1em;
     padding: 2em;   
 }
-
+/* 10 */
 footer{
     background-color: var(--primary);
     border-radius: 1em;
