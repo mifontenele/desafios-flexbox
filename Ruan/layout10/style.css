@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    border: 3px solid red;
+    width: 70%;
+    height: 500px;
+}
+/* Utilizando o border width para definir qual lado posso colocar borda */
+.sub-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0 3px 0 0;
+    border-style: solid;
+    border-color: red;
+    width: 50%;
+    height:497px;
+
+}
+
+.manu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    width: 90%;
+    height: 350px;
+}
+
+.box1 {
+    border: 3px solid red;
+    width: 80%;
+    height: 50px;
+    margin: 10px;
+}
+
+.box2 {
+    border: 3px solid red;
+    width: 80%;
+    height: 200px;
+    margin: 10px;  
+}
+.box3 {
+    border: 3px solid red;
+    width: 90%;
+    height: 50px;
+    margin: 10px;  
+}

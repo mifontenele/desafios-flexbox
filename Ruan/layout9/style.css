@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    width: 70%;
+    height: 500px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid red;
+    width: 50%;
+    height: 400px;
+
+}
+.title {
+    border: 3px solid red;
+    width: 95%;
+    height: 175px;
+    margin: 10px;
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    width: 95%;
+    height: 175px;
+    margin: 10px;
+}
+.box1 {
+    border: 3px solid red;
+    width: 95%;
+    height: 50px;
+    margin: 10px;
+}
+.box2 {
+    border: 3px solid red;
+    width: 95%;
+    height: 50px;
+    margin: 10px;
+}

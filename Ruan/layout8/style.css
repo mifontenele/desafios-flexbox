@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    padding: 10px;
+
+}
+
+.head{
+    border: 3px solid red;
+    width: 98%;
+    height: 100px;
+    margin: 10px;
+}
+.sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    border: none;
+    margin: 0px;
+
+}
+
+.main-content {
+border: 3px  solid red;
+width: 70%;
+height: 500px;
+margin: 10px;
+}
+
+.aside-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    width: 30%;
+    height: 500px;
+    margin: 10px;
+}
+
+.box1 {
+    border: 3px solid red;
+    width: 90%;
+    height: 200px;
+    margin: 10px;
+}
+.box2 {
+    border: 3px solid red;
+    width: 90%;
+    height: 257px;
+    margin: 10px;
+}
+
+.aditional-content {
+    border: 3px solid red;
+    width: 98%;
+    height: 300px;
+    margin: 10px;
+
+}
+
+.baseboard {
+    border: 3px solid red;
+    width: 98%;
+    height: 50px;
+}

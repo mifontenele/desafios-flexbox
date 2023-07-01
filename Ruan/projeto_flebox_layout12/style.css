@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+header {
+    background-color: black;
+    height: 200px;
+}
+main {
+width: 100vw;
+height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    color: white;
+    height: 200px;
+    padding: 20px;
+    font-size: 20px;
+}
+h1 {
+    font-size: 60px;
+}
+.container p {
+    font-weight: bold;
+    font-size: 25px;
+}
+.inicio {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sobre-nos{
+    display: flex;
+    flex-direction: column;   
+}
+
+.suporte {
+    display: flex;
+    flex-direction: column;
+}
+
+.container  a {
+    padding: 5px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.rede-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.rede-sociais img {
+    width: 50px;
+
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+button{
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+}
+footer {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: crimson;
+    height: 40px;
+
+}
