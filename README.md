@@ -32,7 +32,7 @@
 ## 3# - Layout 
 ![image](https://github.com/DC-FS04-SUL/desafios-flexbox/assets/19413241/d7d7dcae-2edc-4e0f-9d16-c4c2bf061f2a)
 
-## 7# - Layout
+## 4# - Layout
 ![image](https://github.com/DC-FS04-SUL/desafios-flexbox/assets/19413241/d325d259-af05-4383-b431-1ccafd5d160b)
 
 ## 5# - Layout 
