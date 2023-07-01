@@ -20,16 +20,12 @@ body {
 }
 
 header {
-    background-color: var(--primary);
-    border-radius: 1em;
-    padding: 2em;
+   
 
 }
 
 main {
-    background-color: var(--primary);
-    border-radius: 1em;
-    padding: 2em;
+    
     height: 50vh;
     display: grid;
     gap: 2em;
@@ -69,13 +65,18 @@ section {
 }
 
 footer {
+    
+
+}
+
+/* estilos das class */
+
+.card-primary {
     background-color: var(--primary);
     border-radius: 1em;
     padding: 2em;
 
 }
-
-/* estilos das class */
 
 .init {
     display: grid;
@@ -86,4 +87,27 @@ footer {
 .main-body {
     display: flex;
     gap: 2em;
+}
+
+.gap-2 {
+    gap: 2em;
+}
+
+.flex-1 {
+    flex:1;
+}
+
+.card-primary {
+    background-color: var(--primary);
+
+}
+
+.card-secondary {
+    background-color: var(--secondary);
+
+}
+
+.grid {
+    display: grid;
+
 }
