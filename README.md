@@ -1,3 +1,15 @@
+````
+:root {
+    --primary: #5271fe;
+    --secondary: #7c93fb;
+    --third: #b7c4fe;
+
+    --dark-blue: #1c2656;
+    --dark: #000;
+    --dark-secondary: #333
+}
+````
+
 # Desafios-flexbox
 
 ## Selecione um dos projetos e crie uma pasta com o seu nome, em seguida, comece a trabalhar nele.
