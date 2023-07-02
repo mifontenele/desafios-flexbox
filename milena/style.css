@@ -1,46 +1,39 @@
 :root{
-    --primary: #5271fe;
-    --secundary: #7c93fb;
+    --primary: #5721fe;
+    --secondary: #7c93fb;
     --third: #b7c4fe;
-
     --dark-blue: #1c2656;
     --dark: #000;
-    --dark-secundary: #333;
-
+    --dark-secondary: #333;
 }
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* styles to tag's */
+/* styles to tags */
 body{
-    background-color: var(--dark-secundary);
-}
+    background-color: var(--dark-secondary);
 
+}
 
 header{
-   background-color: var(--primary);
-   border-radius: 1em;
-   padding: 2em;
+    background-color: var(--primary);
+    border-radius: 1em;
+    padding: 2em;
 }
 
 main{
     background-color: var(--primary);
     border-radius: 1em;
     padding: 2em;
-    /* Tamanho */
-    height: 50vh;
-    /* add grid */
     display: grid;
     gap: 2em;
-
 }
 
 aside{
-    background-color: var(--secundary);
+    background-color: var(--secondary);
     border-radius: 1em;
     padding: 2em;
     /* tamanho */
@@ -48,22 +41,13 @@ aside{
 }
 
 article{
-    background-color: var(--secundary);
+    background-color: var(--secondary);
     border-radius: 1em;
     padding: 2em;
     /* tamanho */
     flex: 1;
-    /* add grid */
-    display: grid;
     gap: 2em;
-
-}
-
-section{
-    background-color: var(--secundary);
-    border-radius: 1em;
-    padding: 2em;
-    
+    display: grid;
 }
 
 article section{
@@ -71,23 +55,29 @@ article section{
     border-radius: 1em;
     padding: 2em;
 }
-
+/* 9 */
+section{
+    background-color: var(--third);
+    border-radius: 1em;
+    padding: 2em;   
+}
+/* 10 */
 footer{
     background-color: var(--primary);
     border-radius: 1em;
     padding: 2em;
 }
 
-/* style to class */
-
+/* styles to class */
 .init{
     display: grid;
     padding: 2em;
     gap: 2em;
-
 }
 
 .main-body{
     display: flex;
     gap: 2em;
 }
+
+

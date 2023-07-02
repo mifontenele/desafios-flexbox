@@ -1,0 +1,60 @@
+:root {
+    --primary: #5271fe;
+    --secondary: #7c93fd;
+    --third: #b7c4fe;
+
+    --dark-blue: #1c2656;
+    --dark: #000;
+    --dark-secondary: #333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* styles to tag's */
+
+body {
+    background-color: var(--dark-secondary);
+}
+
+article section {
+    background-color: var(--third);
+    border-radius: 1em;
+    padding: 2em;
+}
+
+/* styles to class */
+
+.card-primary {
+    background-color: var(--primary);
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.card-secondary {
+    background-color: var(--secondary);
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.gap-2em {
+    gap: 2em;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.display-grid {
+    display: grid;
+}
+
+.init {
+    padding: 2em;
+}
+
+.main-body {
+    display: flex;
+}
