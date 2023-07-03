@@ -2,7 +2,8 @@
     --primary: #5271fe;
     --secondary: #7c93fb;
     --third: #b7c4fe;
-    --dark-blue: #1c2656;
+
+    --dark-bdarklue:#1c2656;
     --dark: #000;
     --dark-secondary: #333;
 }
@@ -10,104 +11,49 @@
 * {
     margin: 0;
     padding: 0;
-
+    /* box-sizing: border-box; */
 }
 
-/* estilos das tags */
-
+/* estilo das tags */
 body {
     background-color: var(--dark-secondary);
 }
 
-header {
-   
-
-}
-
-main {
-    
-    height: 50vh;
-    display: grid;
-    gap: 2em;
-
-}
-
-aside {
-    background-color: var(--secondary);
-    border-radius: 1em;
-    padding: 2em;
-    /* tamanho */
-    flex: 1;
-
-}
-
-article {
-    background-color: var(--secondary);
-    border-radius: 1em;
-    padding: 2em;
-    /* tamanho */
-    flex: 1;
-    /* adicionado o flex */
-    display: grid;
-    gap: 2em;
-}
-
 article section {
     background-color: var(--third);
-
 }
 
-section {
-    background-color: var(--secondary);
-    border-radius: 1em;
-    padding: 2em;
-
-}
-
-footer {
-    
-
-}
-
-/* estilos das class */
-
-.card-primary {
-    background-color: var(--primary);
-    border-radius: 1em;
-    padding: 2em;
-
-}
+/* estilo das class */
 
 .init {
-    display: grid;
-    padding: 2em;
-    gap: 2em;
+padding: 2em;
 }
 
 .main-body {
     display: flex;
-    gap: 2em;
-}
-
-.gap-2 {
-    gap: 2em;
-}
-
-.flex-1 {
-    flex:1;
-}
+ }
 
 .card-primary {
-    background-color: var(--primary);
-
-}
-
-.card-secondary {
-    background-color: var(--secondary);
-
+    border-radius: 1em;
+    padding: 2em;
 }
 
 .grid {
     display: grid;
+}
 
+.color-primary{
+    background-color: var(--primary);
+}
+
+.color-secondary {
+    background-color: var(--secondary);
+}
+
+.gap {
+    gap: 2em;
+}
+
+.flex {
+    flex: 1;
 }
