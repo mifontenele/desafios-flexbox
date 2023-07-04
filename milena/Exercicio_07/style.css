@@ -1,0 +1,58 @@
+:root{
+    --primary: #4169E1;
+    --secondary: #1E90FF;
+    --third: #00BFFF;
+    --dark-blue: #00008B;
+    --dark: #000;
+    --dark-secondary: #376a930;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+    font-size: small;
+}
+
+/* styles to tags */
+body{
+    background-color: var(--dark-secondary);
+}
+
+/* styles to class */
+.init{
+    padding: 2em;
+}
+
+.main-body{
+    display: flex;
+}
+
+.card-primary{
+    background-color: var(--primary);    
+}
+
+.card-secondary{
+    background-color: var(--secondary);    
+}
+
+.card-third{
+    background-color: var(--third);    
+}
+
+.border-radius{
+    border-radius: 1em;    
+}
+
+.gap-2em{
+    gap: 2em;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.display-grid{
+    display: grid;
+}
