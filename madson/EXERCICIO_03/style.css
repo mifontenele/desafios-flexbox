@@ -1,0 +1,61 @@
+:root {
+--primary: #f3d008;
+--secondary: #796a14;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.init {
+    height: 100%;
+    display: grid;
+}
+
+header {
+    height: 10em;
+}
+
+main {
+    display: flex;
+    height: 25em;
+    justify-content: space-between;
+}
+
+aside {
+    width: 45%;
+}
+
+section {
+    height: 10em;
+}
+
+.aside_section {
+    display: grid;
+    height: 100%;
+}
+
+.pad_border {
+    padding: 2em;
+}
+
+.cor_pri {
+    background-color: var(--primary);
+}
+
+.cor_sec {
+    background-color: var(--secondary);
+}
+
+.largura {
+    width: 100%;
+}
+
+.borda {
+    border-radius: 1em;
+}
+.gap {
+    gap: 2em;
+}
